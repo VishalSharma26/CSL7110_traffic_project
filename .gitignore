@@ -1,18 +1,9 @@
-# IDE / tool folders
 .venv/
 .claude/
-
-# Local setup convenience script (not needed — use requirements.txt)
-scripts/setup_local_env.ps1
-
-# Python cache
 __pycache__/
 *.pyc
-.pytest_cache/
-.ipynb_checkpoints/
 
-# Large raw data files — re-download with scripts/download_tlc_data.py
-data/raw/
-data/interim/
-data/processed/
+data/
 *.parquet
+
+reports/
