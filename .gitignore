@@ -3,7 +3,9 @@
 __pycache__/
 *.pyc
 
-data/
-*.parquet
+# Raw dataset is too large (48 MB) — re-download with scripts/download_tlc_data.py
+data/raw/
 
-reports/
+# Final report and presentation submitted separately
+reports/*.docx
+reports/*.pptx
