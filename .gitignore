@@ -1,0 +1,15 @@
+# IDE / tool folders
+.venv/
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large raw data files — re-download with scripts/download_tlc_data.py
+data/raw/
+data/interim/
+data/processed/
+*.parquet
