@@ -1,0 +1,162 @@
+{
+  "source": "C:\\Users\\visha\\OneDrive\\Desktop\\traffic_project - Claude\\data\\raw\\yellow_tripdata_2024-01.parquet",
+  "spark_version": "3.5.2",
+  "overall": {
+    "total_raw_rows": 2964624,
+    "total_clean_rows": 2713255,
+    "rows_removed": 251369,
+    "avg_duration_minutes": 14.97,
+    "avg_distance_miles": 3.3,
+    "avg_speed_mph": 11.49,
+    "avg_fare_usd": 18.39,
+    "stddev_duration_minutes": 11.89
+  },
+  "congestion_breakdown": {
+    "high": {
+      "count": 864032,
+      "percentage": 31.8
+    },
+    "low": {
+      "count": 436483,
+      "percentage": 16.1
+    },
+    "medium": {
+      "count": 1412740,
+      "percentage": 52.1
+    }
+  },
+  "hourly_stats": {
+    "0": {
+      "avg_speed_mph": 14.7,
+      "avg_duration_min": 13.67,
+      "trip_count": 68806
+    },
+    "1": {
+      "avg_speed_mph": 13.83,
+      "avg_duration_min": 12.54,
+      "trip_count": 45093
+    },
+    "2": {
+      "avg_speed_mph": 13.8,
+      "avg_duration_min": 11.96,
+      "trip_count": 31739
+    },
+    "3": {
+      "avg_speed_mph": 15.11,
+      "avg_duration_min": 12.05,
+      "trip_count": 20379
+    },
+    "4": {
+      "avg_speed_mph": 17.98,
+      "avg_duration_min": 13.9,
+      "trip_count": 12649
+    },
+    "5": {
+      "avg_speed_mph": 19.61,
+      "avg_duration_min": 16.68,
+      "trip_count": 15477
+    },
+    "6": {
+      "avg_speed_mph": 15.94,
+      "avg_duration_min": 15.84,
+      "trip_count": 35404
+    },
+    "7": {
+      "avg_speed_mph": 12.9,
+      "avg_duration_min": 14.95,
+      "trip_count": 74021
+    },
+    "8": {
+      "avg_speed_mph": 10.99,
+      "avg_duration_min": 15.09,
+      "trip_count": 104772
+    },
+    "9": {
+      "avg_speed_mph": 10.96,
+      "avg_duration_min": 15.09,
+      "trip_count": 118968
+    },
+    "10": {
+      "avg_speed_mph": 10.8,
+      "avg_duration_min": 15.25,
+      "trip_count": 129592
+    },
+    "11": {
+      "avg_speed_mph": 10.26,
+      "avg_duration_min": 15.13,
+      "trip_count": 140788
+    },
+    "12": {
+      "avg_speed_mph": 10.29,
+      "avg_duration_min": 15.12,
+      "trip_count": 153102
+    },
+    "13": {
+      "avg_speed_mph": 10.37,
+      "avg_duration_min": 15.5,
+      "trip_count": 158474
+    },
+    "14": {
+      "avg_speed_mph": 10.19,
+      "avg_duration_min": 16.47,
+      "trip_count": 170581
+    },
+    "15": {
+      "avg_speed_mph": 9.9,
+      "avg_duration_min": 16.77,
+      "trip_count": 176265
+    },
+    "16": {
+      "avg_speed_mph": 10.18,
+      "avg_duration_min": 16.92,
+      "trip_count": 177699
+    },
+    "17": {
+      "avg_speed_mph": 9.87,
+      "avg_duration_min": 15.89,
+      "trip_count": 190589
+    },
+    "18": {
+      "avg_speed_mph": 10.36,
+      "avg_duration_min": 14.33,
+      "trip_count": 195317
+    },
+    "19": {
+      "avg_speed_mph": 11.67,
+      "avg_duration_min": 13.78,
+      "trip_count": 170003
+    },
+    "20": {
+      "avg_speed_mph": 12.74,
+      "avg_duration_min": 13.49,
+      "trip_count": 148728
+    },
+    "21": {
+      "avg_speed_mph": 13.22,
+      "avg_duration_min": 13.5,
+      "trip_count": 147900
+    },
+    "22": {
+      "avg_speed_mph": 13.69,
+      "avg_duration_min": 13.86,
+      "trip_count": 130030
+    },
+    "23": {
+      "avg_speed_mph": 14.68,
+      "avg_duration_min": 14.19,
+      "trip_count": 96879
+    }
+  },
+  "peak_vs_offpeak": {
+    "rush_hour": {
+      "trips": 1031369,
+      "avg_duration_min": 15.18,
+      "avg_speed_mph": 10.77
+    },
+    "off_peak": {
+      "trips": 1681886,
+      "avg_duration_min": 14.83,
+      "avg_speed_mph": 11.94
+    }
+  }
+}
